@@ -62,13 +62,11 @@ p {
   color: rgb(88, 82, 82);
 }
 .hero {
-  background-image: url('/src/images/pexels-karolina-grabowska.jpg');
-  background-color: rgb(214, 196, 199);
+  background-image: url('images/pexels-karolina-grabowska.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  font-size: 40px;
-  margin: auto;
+  padding-top: 30px;
+  height: 98vh;
   color: rgb(88, 82, 82);
 }
 
@@ -79,6 +77,13 @@ p {
   justify-content: space-between;
   align-items: center;
  
+}
+.zkouska {
+  width: 800px;
+  height: 400px;
+  background-image: url("/src/images/1677858531097.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 .hero-text {
   margin-left: 80px;
