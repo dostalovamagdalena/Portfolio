@@ -283,9 +283,11 @@ a {
     margin-bottom: 100px;
     
   }
+  
   h1 {
     font-size: 50px;
     font-weight: 400;
+    
   }
   project-container {
     gap: 10px;
@@ -293,5 +295,22 @@ a {
   footer {
     padding: 20px;
   }
+  
 }
 
+@media only screen and (max-width: 430px) {
+  .social-icon {
+    margin: 5px;
+    display: inline;
+    }
+    .socials {
+      padding-bottom: 5px;
+    }
+    h2 {
+      
+      width: 60%;
+    }
+    .hero-text {
+      margin-left: 10px;
+    }
+}
