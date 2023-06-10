@@ -239,7 +239,7 @@ a {
 .hamburger:focus {
   outline: 0;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .hamburger {
     display: block;
     border: 0;
@@ -274,13 +274,24 @@ a {
     flex-wrap: wrap;
   
   }
+ 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .hero-text {
     margin-left: 30px;
     margin-bottom: 100px;
     
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+  }
+  project-container {
+    gap: 10px;
+  }
+  footer {
+    padding: 20px;
   }
 }
 
