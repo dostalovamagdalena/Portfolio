@@ -53,10 +53,15 @@ h2 {
 }
 h3 {
   font-family: 'Old Standard TT';
-  font-size: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+
 }
 p {
   font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 .nav-link {
   color: rgb(88, 82, 82);
@@ -96,7 +101,7 @@ p {
   width: 150px;
   height: 40px;
   background-color: rgb(82, 39, 55);
-  border-radius: 20px;
+  border-radius: 10px;
   text-align: center;
   font-size: 20px;
   font-weight:500;
@@ -161,12 +166,50 @@ margin: 50px;
   width: 300px;
   height: 560px;
   box-shadow: 5px 5px 20px rgb(187, 184, 184);
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 .project-container {
 display: flex;
 justify-content: space-around;
 }
-
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  height: 370px;
+  border-radius: 10px;
+}
+.phone-image {
+  height: 400px;
+  margin-top: 5px;
+}
+.portfolio-screenshot {
+  border-radius: 20px;
+}
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(88, 82, 82);
+}
+.project-link {
+  text-decoration: none;
+  color:  rgb(82, 39, 55);
+  font-weight: 600;
+  font-size: 20px;
+}
+.project-link:hover {
+  color: rgb(88, 82, 82);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
 /*/////////// Stránka CV a ostatní ///////////*/
 
 .cv {
@@ -196,6 +239,83 @@ justify-content: space-around;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(187, 184, 184);
 }
+.pat-image {
+  width: 30%;
+}
+.pat-images {
+  display: flex;
+  justify-content: center;
+}
+.pat-list {
+  text-transform:lowercase;
+  font-size: 20px;
+  
+  padding: 5px;
+}
+li::marker {
+  color:rgb(88, 82, 82);
+  
+}
+
+.pat-ul {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: square;
+  
+}
+
+.pat-column {
+  box-shadow: 5px 5px 20px rgb(187, 184, 184);
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+}
+.pat-columns {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.persona {
+  width: 100%;
+  
+}
+.wireframes {
+  gap: 30px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.mockup {
+  width: 60%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  align-content: center;
+}
+.final-mockup {
+  width: 80%;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -208,37 +328,24 @@ justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
   }
-}
-.project-image {
-  margin-top: 25px;
-  width: 250px;
-  height: 370px;
-  border-radius: 10px;
-}
-hr {
-  margin-left: 20px;
-  margin-right: 20px;
-  color: rgb(88, 82, 82);
-}
-.project-link {
-  text-decoration: none;
-  color:  rgb(82, 39, 55);
-  font-weight: 600;
-  font-size: 20px;
-}
-.project-link:hover {
-  color: rgb(88, 82, 82);
-}
-a {
-  text-decoration: none;
-  color: white;
-}
-.hamburger {
-  display: none;
-}
-.hamburger:focus {
-  outline: 0;
-}
+  .pat-columns {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+  }
+  .pat-column {
+    width: 90%;
+    
+  }
+  .pat-list {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  }
 @media only screen and (max-width: 800px) {
   .hamburger {
     display: block;
