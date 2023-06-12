@@ -50,6 +50,7 @@ h2 {
   font-size: 25px;
   text-transform: uppercase;
   font-family: 'Old Standard TT';
+  justify-items:center;
 }
 h3 {
   font-family: 'Old Standard TT';
@@ -151,6 +152,7 @@ margin: 50px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  
   padding: 80px;
 }
 .headshot {
@@ -381,6 +383,10 @@ li::marker {
     flex-wrap: wrap;
   
   }
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
  
 }
 
@@ -389,6 +395,16 @@ li::marker {
     margin-left: 30px;
     margin-bottom: 100px;
     
+  }
+  .information {
+    display: grid;
+  }
+  .button-cv {
+    justify-self: center;
+  }
+  .project-image {
+    padding: 20px;
+    margin-top: 0;
   }
   
   h1 {
@@ -413,11 +429,50 @@ li::marker {
     .socials {
       padding-bottom: 5px;
     }
-    h2 {
+    .information {
+      display: grid;
+    }
+    .button-cv {
+      justify-self: center;
+     
       
-      width: 60%;
+    }
+    .project-image {
+      padding:10px;
+      margin-top: 0;
+    }
+    h2 {
+      justify-self: center;
+      margin-bottom: 30px;
+      margin-top: 20px;
+    }
+    h3 {
+      margin-top: 30px;
     }
     .hero-text {
       margin-left: 10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

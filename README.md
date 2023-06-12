@@ -6,6 +6,7 @@
 ## Co dál?
 - doplnit další projekty
 - case study je jenom nástřel, chtělo by to vylepšit
+- u některých velikostí to není úplně responzivní, divně se to skládá a jsou tam divné mezery
 ## Odkaz
 https://dostalovamagdalena.github.io/portfolio/
 
